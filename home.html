@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read-A-Lot|Home</title>
+    <title>Read-A-Lot</title>
     <link rel="icon" href="image/Screenshot__162_-removebg-preview.png" type="image/gif/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="./user.css">
+    <link rel="stylesheet" href="./assets/book.css">
+
 </head>
 <body>
+
 <header class="header">
 
     <div class="header-1">
@@ -22,9 +24,7 @@
         </form>
 
         <div class="icons">
-            <div id="search-btn" class="fas fa-search" onclick="search()"></div>
-            <a href="favourite.html" class="fas fa-heart"></a>
-            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
             <div id="login-btn" class="fas fa-user"></div>
         </div>
 
@@ -37,25 +37,23 @@
             <a href="#arrivals">arrivals</a>
             <a href="#reviews">reviews</a>
             <a href="#blogs">blogs</a>
-            <a href="payment.html">payment</a>
         </nav>
     </div>
 
 </header>
-        <div class="search-results"></div>
 
 <!-- header section ends -->
 
 <!-- bottom navbar  -->
 
 <nav class="bottom-navbar">
-    <a href="user#home" class="fas fa-home"></a>
+    <a href="#home" class="fas fa-home"></a>
     <a href="#featured" class="fas fa-list"></a>
     <a href="#arrivals" class="fas fa-tags"></a>
     <a href="#reviews" class="fas fa-comments"></a>
     <a href="#blogs" class="fas fa-blog"></a>
 </nav>
-
+    </div>
 <!-- login form  -->
 
 <div class="login-form-container">
@@ -63,16 +61,18 @@
     <div id="close-login-btn" class="fas fa-times"></div>
 
     <form action="">
-        <img src="image/scorpion.jpg" alt="Avatar" class="avatar"><br><br>
-        <h1 style="text-align:center;">
-            welcome chinedu
-        </h1><br>
-        <a href="account.html" style="text-align:center;"><p>
-            manage account
-        </p></a><br>
-        <a href="home.html" style="text-align:center;"><p>
-            sign out
-        </p></a>
+        <h3>sign in</h3>
+        <span>Email</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <a href="home.html"><input type="submit" value="sign in" class="btn"></a>
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="signup.html">create one</a></p>
     </form>
 
 </div>
@@ -84,7 +84,8 @@
     <div class="row">
 
         <div class="content">
-            <h3>up to 75% off</h3>
+            <h1 style="font-size: 5rem; color: #444;">welcome to<br>read-a-lot</h1><br>
+            <h3> get up to 75% off</h3>
             <p>New members get 75% off the first 3 books they purchase.</p>
             <a href="#" class="btn">shop now</a>
         </div>
@@ -163,155 +164,13 @@
                 <div class="content">
                     <h3>featured books</h3>
                     <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <a href="#" class="btn">shop now</a>
                 </div>
             </div>
 
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-3.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-4.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-5.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-6.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-7.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-8.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-9.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="image/book-10.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>featured books</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-
+            
         </div>
+
 </section>
 
 <!-- featured section ends -->
@@ -333,7 +192,6 @@
 <!-- arrivals section starts  -->
 
 <section class="arrivals" id="arrivals">
-    
 
     <h1 class="heading"> <span>new arrivals</span> </h1>
 
@@ -358,167 +216,7 @@
                 </div>
             </a>
 
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/livid.jpeg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Livid</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/goosebumps.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Goosebumps</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/order.webp" alt="">
-                </div>
-                <div class="content">
-                    <h3>Orders of Battle</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/peak.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Welcome to Heaven's peak</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="arrivals-slider">
-
-        <div class="wrapper">
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/dark.jpeg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Dark Forces</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/pheonix.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>The pheonix saga</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/falling.jpeg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Falling</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/book-9.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Love</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="slide box">
-                <div class="image">
-                    <img src="image/book-10.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Retro</h3>
-                    <div class="price">$15.99 <span>$20.99</span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
+            
         </div>
 
     </div>
@@ -533,8 +231,8 @@
 
     <div class="content">
         <h3>deal of the day</h3>
-        <h1>up to 50% off</h1>
-        <p>get 50% off the kindle edition book EVERYONE BRAVE IS FORGIVEN.</p>
+        <h1>upto 50% off</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde perspiciatis in atque dolore tempora quaerat at fuga dolorum natus velit.</p>
         <a href="#" class="btn">shop now</a>
     </div>
 
@@ -585,57 +283,6 @@
                 </div>
             </div>
 
-            <div class="slide box">
-                <img src="image/pic-3.png" alt="">
-                <h3>philip stwart</h3>
-                <p>good books, great prices, what else do you need.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-            <div class="slide box">
-                <img src="image/pic-4.png" alt="">
-                <h3>stacy dread</h3>
-                <p>love the site from the first time i started using to get my books ive been loving it.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <img src="image/pic-5.png" alt="">
-                <h3>robert stine</h3>
-                <p>nice user experience i recommend to all book lovers.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <img src="image/pic-6.png" alt="">
-                <h3>xian lee</h3>
-                <p>they've got everything i need no need to go elsewhere.</p>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-
         </div>
 
     </div>
@@ -657,50 +304,6 @@
             <div class="slide box">
                 <div class="image">
                     <img src="image/blog-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="image">
-                    <img src="image/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="image">
-                    <img src="image/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="image">
-                    <img src="image/blog-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="slide box">
-                <div class="image">
-                    <img src="image/blog-5.jpg" alt="">
                 </div>
                 <div class="content">
                     <h3>blog title goes here</h3>
@@ -735,19 +338,19 @@
 
         <div class="box">
             <h3>quick links</h3>
-            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
-            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
-            <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
-            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
         </div>
 
         <div class="box">
             <h3>extra links</h3>
-            <a href="account.html"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
             <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
             <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
-            <a href="payment.html"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
             <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
         </div>
 
@@ -755,14 +358,14 @@
             <h3>contact info</h3>
             <a href="#"> <i class="fas fa-phone"></i> +234-704-645-8572 </a>
             <a href="#"> <i class="fas fa-phone"></i> +234-901-599-8735 </a>
-            <a href="#" style="text-transform: none;"> <i class="fas fa-envelope"></i> anakorchinedu93@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> anakorchinedu93@gmail.com </a>
             <img src="image/worldmap.png" class="map" alt="">
         </div>
         
     </div>
 
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="https://facebook.com/readalotbookshop" target="_blank" class="fab fa-facebook"></a>
         <a href="#" class="fab fa-twitter"></a>
         <a href="#" class="fab fa-instagram"></a>
         <a href="#" class="fab fa-linkedin"></a>
@@ -828,18 +431,12 @@ function loader(){
 function fadeOut(){
   setTimeout(loader, 4000);
 }
-
 let searchBox = document.getElementById("search-box");
 let query = searchBox.value
 searchBox.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     let query = searchBox.value
-
-    function search(){
-        event.preventDefault();
-    let query = searchBox.value
-    }
     
     fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}&key=AIzaSyDS-Aqx4Z1iGljoV6crwb7KSBi5gc0Q4SM`)
     .then(res => res.json())
